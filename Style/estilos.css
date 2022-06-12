@@ -1,0 +1,153 @@
+body {
+	background-image: url(../img/fondo2.jpg);
+	display:  flex;
+	justify-content: center;
+	align-items: center;
+	height: 0vh;
+	padding: 300px;
+	flex-direction: column;
+
+	height: 800px;
+  
+	background-size: cover;
+
+}
+
+*{
+	font-family: sans-serif;
+	box-sizing: border-box;
+}
+
+form {
+
+	padding: 30px;
+	background: #fff;
+	border-radius: 15px;
+	width: 70%;
+}
+
+h2 {
+	text-align: center;
+	margin-bottom: 40px;
+}
+
+input {
+	display: block;
+	border: 2px solid #ccc;
+	width: 100%;
+	padding: 10px;
+	margin: 10px auto;
+	border-radius: 5px;
+}
+label {
+	color: rgb(22, 22, 22);
+	font-size: 18px;
+	padding: 10px;
+	
+}
+
+
+.form-select{
+	display: block;
+	border: 2px solid #ccc;
+	width: 100%;
+	padding: 10px;
+	margin: 10px auto;
+	border-radius: 5px;
+
+}
+
+button {
+	float: right;
+	background: rgb(0, 154, 226);
+	padding: 15px 15px;
+	color: #fff;
+	border-radius: 10px;
+	margin-right: 10px;
+	border: none;
+	justify-content: center;
+	position: relative;
+	text-align: center;
+	margin: 20px 70px; 
+
+	
+
+}
+button:hover{
+	opacity: .7;
+	background: red;
+}
+.error {
+   background: #F2DEDE;
+   color: #A94442;
+   padding: 10px;
+   width: 95%;
+   border-radius: 5px;
+   margin: 20px auto;
+}
+
+.success {
+   background: #D4EDDA;
+   color: #40754C;
+   padding: 10px;
+   width: 50%;
+   border-radius: 5px;
+   margin: 20px auto;
+}
+
+h1 {
+	text-align: center;
+	color: #fff;
+}
+
+.ca {
+	font-size: 14px;
+	display: inline-block;
+	padding: 10px;
+	text-decoration: none;
+	color: #444;
+}
+.ca:hover {
+	text-decoration: underline;
+} 
+
+
+
+.boton,
+form input[type="submit"]{
+    padding: 15px;
+    background: #16b8e0;
+    justify-content: center;
+    
+    color: #e1e9fa;
+    font-size: 1em;
+    
+
+    font-family: 'Shippori Antique', sans-serif;
+    border-radius: 15px;
+    border:none;
+    display: flex;
+    
+    float:right;
+    cursor:pointer;
+    position: relative;
+    
+    
+}
+
+form input[type="submit"]:hover{
+    background: #e64a19;
+    justify-content: center;
+    align-items: center;
+  
+}
+
+h1{
+    display: flex;
+    padding: 10px;
+    justify-content: center;
+
+}
+
+
+
